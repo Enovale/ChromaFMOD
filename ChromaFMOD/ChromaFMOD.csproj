@@ -14,10 +14,6 @@
         </AssemblyAttribute>
         <PackageReference Include="Chroma.NALO" Version="1.0.0" />
     </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\ChromaFMOD.Natives\ChromaFMOD.Natives.csproj" />
-    </ItemGroup>
     
     <ItemGroup>
         <EmbeddedResource Include="Binaries/**" />
