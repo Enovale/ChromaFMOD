@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Chroma" Version="0.54.0" />
+        <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+            <_Parameter1>ChromaFMOD</_Parameter1>
+        </AssemblyAttribute>
+        <PackageReference Include="Chroma.NALO" Version="1.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ChromaFMOD.Natives\ChromaFMOD.Natives.csproj" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <EmbeddedResource Include="Binaries/**" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <Folder Include="Binaries\osx_64" />
+    </ItemGroup>
+
+</Project>

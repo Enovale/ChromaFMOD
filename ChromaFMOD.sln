@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChromaFMOD.Tests", "ChromaFMOD.Tests\ChromaFMOD.Tests.csproj", "{6D185AF6-07EA-4AF6-874F-F18A963D085F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChromaFMOD", "ChromaFMOD\ChromaFMOD.csproj", "{410131FF-4B19-49E3-AE36-48A2AA4B0449}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D185AF6-07EA-4AF6-874F-F18A963D085F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D185AF6-07EA-4AF6-874F-F18A963D085F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D185AF6-07EA-4AF6-874F-F18A963D085F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D185AF6-07EA-4AF6-874F-F18A963D085F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{410131FF-4B19-49E3-AE36-48A2AA4B0449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{410131FF-4B19-49E3-AE36-48A2AA4B0449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{410131FF-4B19-49E3-AE36-48A2AA4B0449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{410131FF-4B19-49E3-AE36-48A2AA4B0449}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
